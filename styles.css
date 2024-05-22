@@ -136,6 +136,10 @@ section ul li {
     background-color: #007bff;
 }
 
+.contact {
+    margin-bottom: 10px;
+}
+
 footer {
     background: #333;
     color: #fff;
