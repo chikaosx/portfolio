@@ -97,3 +97,21 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.project ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project ul li {
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
