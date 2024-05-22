@@ -17,7 +17,10 @@
 
     <nav>
         <div class="container">
-            <ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul id="nav-menu">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -99,10 +102,17 @@
         <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
     </section>
 
-    <footer>
+       <footer>
         <div class="container">
             <p>&copy; 2024 Your Name. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('nav-menu');
+            menu.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>
